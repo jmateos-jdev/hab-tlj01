@@ -47,7 +47,7 @@ const post = (url) => {
       data: {
         name: "HAB",
         age: 20,
-        email: "hab@gmail.com",
+        email: "hab@gmail.com"
       },
     };
 

@@ -1,0 +1,5 @@
+# Ignorar el archivo router.js
+router.js
+
+# Ignorar Node_Modules
+node_modules
