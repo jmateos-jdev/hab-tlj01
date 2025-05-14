@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node index.js",
     "format": "prettier --write .",
-    "git:push": "git add . && git commit -m 'update' && git push"
+    "git:push": "prettier --write . && git add . && git commit -m 'update' && git push"
   },
   "keywords": [],
   "author": "",
