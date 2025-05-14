@@ -1,6 +1,6 @@
 import {routeador} from "./router.ts";
 
-Deno.serve((req) => {
+Deno.serve({port: 3000, hostname: "127.0.0.1"}, (req) => {
 
     const response = routeador(req);
 
@@ -13,4 +13,4 @@ Deno.serve((req) => {
 
 })
 
-console.log("Server is running on port 8000");
+console.log("Server is running on port 3000");
